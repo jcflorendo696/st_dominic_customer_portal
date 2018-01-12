@@ -1,0 +1,511 @@
+/**
+*
+*	St. Dominic Styles
+*	
+*	Red: 	#b41e28;
+*	White:	#fff;
+*
+-------------------*/
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* Remove Bootstrap Default Borders */
+
+.simplebox {
+	outline: none;
+ 	border: 1px solid #6f737f !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.center
+{
+	margin: 0 auto;
+	display: block;
+}
+
+textarea:focus{
+	border: 1px solid #dedede !important;
+	box-shadow: 1px 3px 14px #eaeaea !important;
+}
+
+/* Remove Bootstrap Default Borders End */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	//background-color: #e6e6e6;
+	//background-image: url("../img/logo-header-bw.pnggg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+a:link{
+}
+a:visited{ }
+a:hover{ }
+a:active{ }
+
+.btn{
+	border-radius: 0px;
+	padding: 0px 12px;
+	font-weight: bold;
+}
+
+#signin .btn{
+	/* padding: 0 12px; */
+}
+
+.input-sm{
+	border-bottom: 1px solid #dedede !important;
+}
+
+.stdom-red{
+  color: #b41e28;
+}
+
+.stdom-red-bg{
+	background-color: #b41e28;
+	color: #fff;	
+}
+
+label{
+	font-weight: normal;
+	margin-bottom: 0px;
+	color: #6f6f6f;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background: #fff;
+	border-bottom: 0px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+
+/**
+*	Homepage
+--------------------------*/
+.navbar{
+	margin-bottom: 20px !important;
+	border-radius: 0px;
+}
+.navbar-brand{
+	padding: 0 7px;
+	padding-top: 3px;
+}
+
+.navbar-default{
+	border-bottom: 2px solid #b41e28;
+}
+
+.registration-note{
+	font-size: 12px;
+	font-style: italic;
+}
+
+.btn-stdom{
+	background-color: #b41e28;
+	color: #fff;
+}
+
+.modal-content{
+	border-radius: 0px;
+}
+
+.modal-footer{
+  border-top: none;
+}
+
+.input-sm,
+.input-sm:focus{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+	border-radius: 0px;
+	box-shadow: none;
+	padding: 0px 0px;
+	font-size: 20px;
+  color: #b41e28;
+}
+
+.temp-slider-area{
+  background-color: ;
+}
+
+.temp-announcement-area{
+  background-color: ;
+}
+
+.thumbnail{
+  border-radius: 0px;
+}
+
+div.thumbnail img{
+  margin-top: 3em;
+}
+
+.list-group-item.active{
+  background-color: #b41e28;
+  border-color: #b41e28;
+}
+
+.list-group-item.active:hover{
+  background-color: #b41e28;
+}
+
+p.list-group-item-text{
+  //color: # !important;
+}
+
+.stdom-strip{
+  background-color: #e6e6e6;
+  border-top: 2px solid #b41e28;
+  border-bottom: 2px solid #b41e28;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.video-teaser-header{
+	padding-left: 15px;
+	border-left: 2px solid #d3d3d3;
+}
+
+hr.style14 { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+/**
+*	Footer Styles
+----------------------------*/
+.stdom-footer{
+	background-color: #3b3b3b;
+	//background-image: url('../img/pattern.pngg');
+	padding: 30px 0;
+	position: relative;
+	bottom: 0;
+}
+
+.stdom-footer h4{
+	color: #fff;
+}
+
+.stdom-footer h3{
+	color: #a1a1a1;
+}
+
+.stdom-footer .footer-links{
+	color: #fff;
+	font-weight: 100;
+	padding-left: 22px;
+}
+
+.footer-links li{
+	padding: 5px 0;
+	color: #a1a1a1;
+	font-weight: normal;
+}
+
+
+
+  /**
+  * Announcements
+  --------------------------*/
+
+  /**
+  * STDom Background
+  --------------------------*/  
+  .stdom-bg{
+    background-image: url("../img/logo-header-bw-30.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+  }
+
+/**
+*	Headers
+---------------------------*/
+h1{
+	letter-spacing: -1px;
+	font-weight: 100;
+	color: #757575;
+}
+
+h3{
+	letter-spacing: -1px;
+ 	font-weight: 100;
+	color: #757575;
+}
+
+h4{
+	letter-spacing: -1px;
+  	font-weight: normal;
+	color: #757575;
+	margin: 20px 0;
+}
+
+nav h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+/**
+*	FAQ Styles
+---------------------------*/
+p.info{
+	margin: 25px 25px;
+}
+
+.panel-title{
+	color: #fff;
+	letter-spacing: 0px;
+	font-size: 1.2em;
+}
+
+.panel-default > .panel-heading{
+	background-color: #b41e28;
+	border-radius: 0px;
+}
+
+#faq_accordion{
+	margin-top: 5em;
+}
+
+.glyphicon{
+	font-size: 13px;
+}
+
+/**
+*	Login Styles
+---------------------------*/
+.login-container{
+	background-color: #f3f3f3;
+	margin: 5em 0;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;	
+}
+
+/**
+*	Logout Styles
+---------------------------*/
+.stdom-logout a:link,
+.stdom-logout a:visited,
+.stdom-logout a:hover,
+.stdom-logout a:active{
+	color: #b41e28;
+}
+
+.stdom-logout{
+	margin-top: 10em;
+	margin-bottom: 10em;
+}
+
+/**
+*	Dashboard Styles
+---------------------------*/
+.stdom-dashboard a:link,
+.stdom-dashboard a:visited,
+.stdom-dashboard a:hover,
+.stdom-dashboard a:active{
+	color: #b41e28;
+}
+
+.btn-approved{
+	background: #479047;
+	color: #fff;
+}
+.btn-approved, .btn-reject{
+	padding: 0px 12px;
+	font-size: 14px;
+}
+
+.modal-header
+{
+	background-color: #ffcd86;
+}
+
+.modal-header #v_student_name{
+	font-weight: 100;
+	letter-spacing: -2px;
+}
+.modal-header #v_student_id{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+.modal-header #v_course{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+.modal-header #v_year{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+
+.modal-header #v_course:before
+{
+	content: " - ";
+}
+
+.modal-header #v_year:before{
+	content: " - ";
+}
+
+.modal-header #v_year:after{
+	content: " Student";
+}
+
+#student_search{
+	font-weight: 100;
+}
+
+#search_student_form{
+	margin: 2em 0;
+}
+
+
+
+/*
+*	Chat Styles
+*/
+.chat-to:first-child{
+	margin-top: 15px;
+}
+.chat-to{
+	padding: 0 20px;
+}
+
+.chat-from{
+	padding: 0 20px;
+}
+
+
+/*
+*	Concern Form Styles
+*/
+.concern-form
+{
+    border: 1px solid #e0e0e0;
+    padding: 5%;
+    padding-top: 0;
+    margin-bottom: 5%;
+	box-shadow: 1px 3px 14px #eaeaea;
+}
+
+
+/*
+*	Thank You Page
+*/
+.thank-you-page
+{
+	margin: 10% 0;	
+}
+
+
+/**
+*	Newsletter Style
+*/
+.newsletter-page
+{
+	background-color: #f3f3f3;
+    margin: 5% 0;
+    margin-bottom: 5%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;	
+}
+
+/**
+*	Forgot Password
+*/
+.forgot-pass-container
+{
+	background-color: #f3f3f3;
+    margin: 5% 0;
+    margin-bottom: 5%;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;	
+}
+
+#forgotPasswordForm
+{
+	margin: 2em 0;
+}
+
+
+
+/**
+*	Search
+*/
+
+#searchIcon
+{
+    background-color: #fff;
+    border: none;
+    font-size: 1.7em;
+}
+
+#searchBox
+{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #b41e28;
+    font-size: 1.5em;
+    border-radius: 0px;
+}
+
+/**
+*	Badge
+*/
+.badge
+{
+	background-color: #b41e28;
+}
+
+
+
+/**
+*	Printing Stuff
+*/
+@media print{
+
+	.disappear-print
+	{
+		visibility: hidden;	
+	}
+
+}

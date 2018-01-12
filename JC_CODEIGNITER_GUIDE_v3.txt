@@ -1,0 +1,6 @@
+Jc's Challenges
+August 15, 2016
+
+
+1. index.php in every codeigniter installation.
+2. update .htaccess on every ci install

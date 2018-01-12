@@ -1,0 +1,50 @@
+/* CSS Document */
+
+  
+#livechatspace form, #livechatspace p, #livechatspacespan {
+    margin:0;
+    padding:0; 
+    text-align: center;
+}
+  
+#livechatspace input { font:12px arial; }
+  
+
+  
+#livechatspace #wrapper, #livechatspace #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#livechatspace #loginform { padding-top:18px; }
+  
+#livechatspace #loginform p { margin: 5px; }
+  
+#livechatspace #chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#livechatspace #usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#livechatspace #submit { width: 60px; }
+  
+#livechatspace .error { color: #ff0000; }
+  
+#livechatspace #menu { padding:12.5px 25px 12.5px 25px; }
+  
+#livechatspace .welcome { float:left; }
+  
+#livechatspace .logout { float:right; }
+  
+#livechatspace .msgln { margin:0 0 2px 0; }
